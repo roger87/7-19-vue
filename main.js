@@ -16,3 +16,10 @@ var vue2 = new Vue({
         google:"http://google.com"
     }
 });
+
+var vue3 = new Vue({
+    el: "#vue3",
+    data: {
+        test:true
+    }
+});

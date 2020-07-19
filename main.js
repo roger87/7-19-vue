@@ -26,5 +26,26 @@ var vue3 = new Vue({
 });
 
 var vue4 = new Vue({
-    el: "#vue4"
+    el: "#vue4",
+    data: {
+        products: [
+            {name:"奶茶", price:45},
+            {name:"紅茶", price:35},
+            {name:"多多綠茶", price:50},
+            {name:"珍珠奶茶", price:25},
+            {name:"花草茶", price:30}
+        ]
+    }
+});
+
+var vue5 = new Vue({
+    el: "#vue5",
+    data : {
+        text: ""
+    },
+    methods: {
+        show: function() {
+            this.text = "點到了~"
+        }
+    }
 });

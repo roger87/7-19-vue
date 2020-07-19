@@ -20,6 +20,11 @@ var vue2 = new Vue({
 var vue3 = new Vue({
     el: "#vue3",
     data: {
-        test:true
+        test:true,
+        activity:false
     }
+});
+
+var vue4 = new Vue({
+    el: "#vue4"
 });

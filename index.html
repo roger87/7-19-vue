@@ -31,6 +31,16 @@
     <div id="vue3">
         <p v-if="test">我是段落文字</p>
         <div v-if="test">我式區塊</div>
+
+        <h2>活動特價</h2>
+        <a href="#" v-if="activity">特價區，點我前往</a>
+        <span v-else="activity">活動已經結束。</span>
+    </div>
+
+    <h1>迴圈</h1>
+
+    <div id="vue4">
+        <a href="#" v-for="n in 5">分頁連結{{n}}</a>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
